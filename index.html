@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Creación Colectiva</title>
+  <!-- Bootstrap core CSS-->
+  <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="css/menu-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/7592creacion1-03.ico">
+</head>
+
+<body>
+  <div class="container-fluid nopadding">
+    <div id="wrapper">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-inverse navbar-fixed-top"
+      id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#">Home</a>
+        </li>
+        <li><a href="#">Marisela Mejía</a></li>
+        <li><a href="#">Joseline Saravia</a></li>
+        <li><a href="#">Jonathan Martínez</a></li> 
+        <li><a href="#">Claudia Cortez</a></li>     
+      </ul>
+    </nav>
+
+
+    <section id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+      </button>
+
+    <article class="container">
+    <div class="row">
+    <div class="col-md-5">
+    <img src="img/creacion4-02.png" class="adaptar img-fluid">
+    </div>
+    <div class="col-md-7">
+      <h2 class="section-heading">Conoce nuestra Historia</h2>
+      <br>
+      <p class="">Creación Colectiva, es una empresa dedicada a brindar servicios de diseño gráfico, diseño web, fotografía, entre otros servicios. Contamos con una amplia experiencia atendiendo a los mas clientes mas exigentes y brindando satisfacción en cada servicio.</p>
+      <br>
+      <p class="">Nuestra empresa surge del deseo de tres Salvadoreños por posicionarse como numero uno en las diferentes áreas del diseño, revolucionando la industria...<a href="#">Leer Más</a></p>
+      <br>
+      </div>
+      </div>
+      <br>
+      <div class="row">
+      <div class="col-md-3">
+      <div class="card text-center">
+      <img class="adaptar img-fluid" src="img/logos-01.jpg">
+      <div class="card-body">
+      <h4 class="section-heading">Marisela Mejía</h4>
+      <h6 class="text-muted">Diseño Web</h6>
+      <p>Con amplia experiencia en diseño web, Marisela Mejía ofrece a nuestros clientes un mundo de soluciones y un excelente servicio personalizado</p>
+      </div>
+      <div class="card-footer">
+      <a href="#">Leer Más</a>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="card text-center">
+      <img class="adaptar img-fluid" src="img/logos-02.jpg">
+      <div class="card-body">
+      <h4 class="section-heading">Joseline Saravia</h4>
+      <h6 class="text-muted">Diseño Gráfico</h6>
+      <p>Con su amplia experiencia en el diseño, Joselin Saravia se encarga de brindar el mejor servicio a las empresas, a fin de posicionarlas como número uno</p>
+      </div>
+      <div class="card-footer">
+      <a href="#">Leer Más</a>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="card text-center">
+      <img class="adaptar img-fluid" src="img/logos-03.jpg">
+      <div class="card-body">
+      <h4 class="section-heading">Jonathan Matínez</h4>
+      <h6 class="text-muted">Fotografía e Ilustración</h6>
+      <p>Experto en ilustración, brinda las mejores soluciones gráficas a nuestros clientes dando un toque divertido a sus trabajos...</p><br>
+      </div>
+      <div class="card-footer">
+      <a href="#">Leer Más</a>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+      <div class="card text-center">
+      <img class="adaptar img-fluid" src="img/logos-04.jpg">
+      <div class="card-body">
+      <h4 class="section-heading">Claudia Cortez</h4>
+      <h6 class="text-muted">Branding e Ilustración</h6>
+      <p>Experta en Branding y apasionada de la Ilustración digital, una de las fundadoras de Creación Colectiva, dispuesta a brindar la mejor solución digital a tu empresa...</p>
+      </div>
+      <div class="card-footer">
+      <a href="#">Leer Más</a>
+      </div>
+      </div>
+      </div>
+      </div>
+</article>
+<br>
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+  </div>
+</footer>
+</section>
+</div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="js/jquery/jquery-1.12.4.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var trigger = $('.hamburger'),
+    overlay = $('.overlay'),
+    isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+    }
+
+    $('[data-toggle="offcanvas"]').click(function () {
+      $('#wrapper').toggleClass('toggled');
+    });  
+  });
+</script> 
+</div>
+</body>
+
+</html>
+<!--pasos para trabajar con bootstrap
+  se define o no la existencia de un divo con una clase propia del diseño del cliente.
+
+  se define un contenedor principal de los 2 que hay
+
+  se define una fila contenedora
+
+  se definen las columnas 
+
+  se procede a personalizar a gusto del diseñador-->
