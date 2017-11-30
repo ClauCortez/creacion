@@ -51,8 +51,10 @@ padding: 0 !important;
 .imagen{
   width: 100%;
   height: auto;
-  background-image: url(../img/banner-mape.svg) no-repeat;
+  background-image: url(../img/banner-mape.jpg) no-repeat;
+
 }
+
 
 .imagen-perfil {
  max-width: 150px;
