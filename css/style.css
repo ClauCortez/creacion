@@ -66,6 +66,13 @@ padding: 0 !important;
   height: auto;
 }
 
+.our-team{
+  margin-top: 10px;
+  padding: 12%;
+  background: url(../img/diseno-grafico1.jpg);
+  background-size: cover;
+}
+
 .card {
   position: relative;
   display: block;
@@ -83,6 +90,30 @@ padding: 0 !important;
     padding-bottom: 3rem!important;
 } 
 .bg-dark {
-   color: #f8f8f8;
+    color: #f8f8f8;
     background-color: #343a40!important;
 }
+
+h2{
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  color: rgb(86, 86, 86) !important;
+  letter-spacing: -1px !important;
+
+}
+
+.parrafos{
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: justify;
+
+}
+
+.our-team h4{
+  color: rgb(255,255,255);
+  font-size: 35px;
+  margin-left: 10%;
+  font-family: Franklin Gothic;
+
+}
+
