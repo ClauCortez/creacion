@@ -68,8 +68,8 @@ padding: 0 !important;
 
 .our-team{
   margin-top: 10px;
-  padding: 12%;
-  background: url(../img/diseno-grafico1.jpg);
+  padding: 5%;
+  background: url(../img/diseno1.jpg);
   background-size: cover;
 }
 
@@ -109,11 +109,10 @@ h2{
 
 }
 
-.our-team h4{
-  color: rgb(255,255,255);
-  font-size: 35px;
-  margin-left: 10%;
-  font-family: Franklin Gothic;
+.titulo1{
+  color: rgb(255,255,255) !important;
+  font-size: 35px !important;
+  font-family: Franklin Gothic !important;
 
 }
 
