@@ -49,11 +49,9 @@ padding: 0 !important;
 }
 
 .imagen{
-  width: 1140px;
-  height: 190px;
-  background: url(../img/banner-mape.svg);
-  vertical-align: middle;
-
+  width: 100%;
+  height: auto;
+  background-image: url(../img/banner-mape.svg) no-repeat;
 }
 
 .imagen-perfil {
@@ -83,7 +81,7 @@ padding: 0 !important;
 }
 
 .card:hover{
-  background-color: rgb(219,167,75);
+  background-color: rgb(119,130,88);
   color: rgb(255,255,255)!important;
 }
 
