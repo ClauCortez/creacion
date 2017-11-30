@@ -51,7 +51,7 @@ padding: 0 !important;
 .imagen{
   width: 1140px;
   height: 190px;
-  background: url(../img/banner.svg);
+  background: url(../img/banner-mape.svg);
   vertical-align: middle;
 
 }
@@ -62,7 +62,7 @@ padding: 0 !important;
   border-radius: 150px;
   -webkit-border-radius:150px;
   -moz-border-radius:150px;
-  background: url(../img/perfil-marisela.jpg) no-repeat;
+  background: url(../img/perfil-mape.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0,0,0,.8);
 }
 
