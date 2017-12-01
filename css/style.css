@@ -66,13 +66,6 @@ padding: 0 !important;
   height: auto;
 }
 
-.our-team{
-  margin-top: 10px;
-  padding: 5%;
-  background: url(../img/diseno1.jpg);
-  background-size: cover;
-}
-
 .card {
   position: relative;
   display: block;
@@ -97,7 +90,7 @@ padding: 0 !important;
 h2{
   font-size: 40px !important;
   font-weight: 600 !important;
-  color: rgb(86, 86, 86) !important;
+  color: rgb(107,107,107) !important;
   letter-spacing: -1px !important;
 
 }
@@ -110,9 +103,18 @@ h2{
 }
 
 .titulo1{
-  color: rgb(255,255,255) !important;
-  font-size: 35px !important;
-  font-family: Franklin Gothic !important;
+  color: rgb(107,107,107);
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 900;
+
+}
+
+.card p{
+  font-size: 12pt;
+  font-family: Arial;
+  color: rgb(108,108,108);
+  font-weight: lighter;
 
 }
 
