@@ -49,11 +49,9 @@ padding: 0 !important;
 }
 
 .imagen{
-  width: 1140px;
-  height: 190px;
+  width: 100%;
+  height: auto;
   background: url(../img/banner.svg);
-  vertical-align: middle;
-
 }
 
 .imagen-perfil {
