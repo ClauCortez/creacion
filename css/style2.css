@@ -51,7 +51,7 @@ padding: 0 !important;
 .imagen{
   width: 100%;
   height: auto;
-  background: url(../img/banner.svg);
+  /*background: url(../img/banner.svg);*/
 }
 
 .imagen-perfil {
@@ -81,7 +81,7 @@ padding: 0 !important;
 }
 
 .card:hover{
-  background-color: rgb(219,167,75);
+  background-color: rgb(249,137,6);
   color: rgb(255,255,255)!important;
 }
 
