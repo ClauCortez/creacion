@@ -83,7 +83,7 @@ padding: 0 !important;
 }
 
 .card:hover{
-  background-color: rgb(119,130,88);
+  background-color: rgb(155,196,81);
   color: rgb(255,255,255)!important;
 }
 
@@ -102,4 +102,9 @@ padding: 0 !important;
 .bg-dark {
    color: #f8f8f8;
    background-color: #343a40!important;
+}
+
+#nombre{
+  text-decoration: none;
+  color:black;
 }
